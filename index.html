@@ -24,6 +24,39 @@
             aria-label="Generated Password"
           ></textarea>
         </div>
+        <form id="prompts">
+            <label for="length">Length:</label><br>
+            <input type="number" id="length" name="length" min="8" max="128"><br>
+
+            <!-- asking user if s/he wants to include lowercase letters in password -->
+            <label>Include lowercase letters?</label><br>
+            <!-- yes button -->
+            <input type="radio" id="lowercaseYes" name="lowercase" value="lowercaseYes" checked>
+            <label for="lowercaseYes">Yes</label>
+            <!-- no button -->
+            <input type="radio" id="lowercaseNo" name="lowercase" value="lowercaseNo">
+            <label for="lowercaseNo">No</label><br>
+
+            <label>Include Uppercase letters?</label><br>
+            <input type="radio" id="uppercaseYes" name="uppercase" value="uppercaseYes" checked>
+            <label for="uppercaseYes">Yes</label>
+            <input type="radio" id="uppercaseNo" name="uppercase" value="uppercaseNo">
+            <label for="uppercaseNo">No</label><br>
+      
+            <label>Include numbers?</label><br>
+            <input type="radio" id="numbersYes" name="numbers" value="numbersYes" checked>
+            <label for="numbersYes">Yes</label>
+            <input type="radio" id="numbersNo" name="numbers" value="numbersNo">
+            <label for= "numbersNo">No</label><br>
+
+            <label>Include special characters?</label><br>
+            <input type="radio" id="specialcharactersYes" name="specialcharacters" value="specialcharacterYes" checked>
+            <label for="specialcharacters">Yes</label>
+            <input type="radio" id="specialcharactersNo" name="specialcharacters" value="specialcharacterNo">
+            <label for="specialcharacters">No</label>
+
+
+        </form>
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
         </div>
