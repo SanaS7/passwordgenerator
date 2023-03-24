@@ -18,7 +18,7 @@ To install this project:
 
 ## Usage
 
-<img src="images/imagespasswordgenerator.png" alt="Passwordgenerator">
+<img src="images/imagepasswordgenerator.png" alt="Passwordgenerator">
 
 
 ## Credits
